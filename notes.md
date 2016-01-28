@@ -1,7 +1,5 @@
 # Notes
----
----
----
+Here's just a few command snippits that I am holding onto for reference sake...
 ## Git
 
     git add --all
@@ -9,7 +7,6 @@
     git push -u origin master
 
 ## Random Command Lines
----
 
     gdal_rasterize -3d -a_nodata -9999 -tr 0.00027777778 0.00027777778 -tap -l FP_StLouis FP_StLouis.vrt FP_StLouis.tif
 
@@ -21,16 +18,16 @@
 
 
 ## psql
----
+
     psql -U postgres -d shapes -c "\d"
 
 
 ##Web APIs
----
+
 ###Snowfall rasters
-1. [http://www.nohrsc.noaa.gov/snowfall/](NOAA/NWS Snowfall rasters)
+1. [NOAA/NWS Snowfall rasters](http://www.nohrsc.noaa.gov/snowfall/)
 
 
 ## Examples of Map Dashboards
-####[https://spotfire.cloud.tibco.com/spotfire/wp/render/22694204537/analysis?file=/users/annamarianow/public/california%20drought&waid=6zaDFLK7QEaq5UbmFzKIe-0716011da9yf5y&wavid=0](TIBCO and the CA Drought)
+1. [TIBCO and the CA Drought](https://spotfire.cloud.tibco.com/spotfire/wp/render/22694204537/analysis?file=/users/annamarianow/public/california%20drought&waid=6zaDFLK7QEaq5UbmFzKIe-0716011da9yf5y&wavid=0)
 
