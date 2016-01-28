@@ -2,7 +2,7 @@
 ##########
 # Git
 git add --all
-git commit -m "Initial commit"
+git commit -m "new notes and scripts"
 git push -u origin master
 
 # Random Command Lines
