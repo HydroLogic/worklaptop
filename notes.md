@@ -15,13 +15,21 @@ Here's just a few command snippits that I am holding onto for reference sake...
 
 ## Random Command Lines
 
-    gdal_rasterize -3d -a_nodata -9999 -tr 0.00027777778 0.00027777778 -tap -l FP_StLouis FP_StLouis.vrt FP_StLouis.tif
+#### GDAL and OGR
+```Shell
+gdal_rasterize -3d -a_nodata -9999 -tr 0.00027777778 0.00027777778 -tap -l FP_StLouis FP_StLouis.vrt FP_StLouis.tif
 
-    for %f in (*Flow.shp) do shp2pgsql -s 4269 -a -D -t 2d %f public.flowlines | psql -U postgres -d nhd -q
+for %f in (*Flow.shp) do shp2pgsql -s 4269 -a -D -t 2d %f public.flowlines | psql -U postgres -d nhd -q
 
-    for %X in (*.shp) do ogr2ogr -t_srs EPSG:4269 -s_srs EPSG:4326 C:\01_DATA\01_CompleteHydrologyConUSA\Hydropostgis\wgs\4269\%X %X
+for %X in (*.shp) do ogr2ogr -t_srs EPSG:4269 -s_srs EPSG:4326 C:\01_DATA\01_CompleteHydrologyConUSA\Hydropostgis\wgs\4269\%X %X
 
-    for %X in (*.shp) do ogr2ogr -f PostgreSQL PG:"dbname=shapes user='postgres' password='elements'" *.shp
+for %X in (*.shp) do ogr2ogr -f PostgreSQL PG:"dbname=shapes user='postgres' password='elements'" *.shp
+```
+#### Bash and Other Shell
+Rename and take out spaces and parathesis
+```Shell
+for file in ./*; do mv "$file" "${file/ (*)/}"; done
+```
 
 ## Python and stuff
 
@@ -38,27 +46,30 @@ Here's just a few command snippits that I am holding onto for reference sake...
 
 ## PostgreSQL
 
-### psql
-
-    psql -U postgres -d shapes -c "\d"
-
+#### psql
+List all the tables inside the database
+```Shell
+psql -U postgres -d shapes -c "\d"
+```
+General pgsql help stuff
+```Shell
+\h                 # help on SQL commands
+\?                 # help on psql commands, such as \? and \h
+\l                 # list databases
+\c database_name   # connect to a database
+\d                 # list of tables
+\d table_name      # schema of a given table
+\du                # list roles
+\e                 # edit in $EDITOR
+```
 #### Other General Notes
 
-    postgres=# \h                 # help on SQL commands
-    postgres=# \?                 # help on psql commands, such as \? and \h
-    postgres=# \l                 # list databases
-    postgres=# \c database_name   # connect to a database
-    postgres=# \d                 # list of tables
-    postgres=# \d table_name      # schema of a given table
-    postgres=# \du                # list roles
-    postgres=# \e                 # edit in $EDITOR
-
-### PostGIS
+#### PostGIS
 1. [Boundless PostGIS Intro](http://workshops.boundlessgeo.com/postgis-intro/)
 
-##Web APIs
+## Web APIs
 
-###Snowfall rasters
+####Snowfall rasters
 1. [NOAA/NWS Snowfall rasters](http://www.nohrsc.noaa.gov/snowfall/)
 
 
