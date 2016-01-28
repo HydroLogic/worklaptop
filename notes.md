@@ -18,9 +18,16 @@ Here's just a few command snippits that I am holding onto for reference sake...
 
 ## Python and stuff
 
+### GeoDjango Project Examples
+1. [GeoQ](https://github.com/ngageoint/geoq) - Django web application to collect geospatial features and manage feature collection among groups of users
+
+### Interesting Links and Tutorials
 1. [Rasterio Masks](http://snorf.net/blog/2014/11/09/masking-rasterio-layers-with-vector-features/)
 1. [GeoAlchemy2 Documentation](https://geoalchemy-2.readthedocs.org/en/0.2.6/orm_tutorial.html)
 1. [SQL Alchemy Awesome List](https://github.com/dahlia/awesome-sqlalchemy#gis-and-spatial-databases)
+
+#### Discussions
+1. [Streaming NWS Hazard Data](https://github.com/ngageoint/geoq/issues/188)
 
 ## PostgreSQL
 
