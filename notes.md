@@ -6,6 +6,13 @@ Here's just a few command snippits that I am holding onto for reference sake...
     git commit -m "new notes and scripts"
     git push -u origin master
 
+### Add a submodule to my github page
+    git submodule init
+    git submodule update
+
+### Random Webpage shit
+@mention a GitHub username to generate a link to their profile
+
 ## Random Command Lines
 
     gdal_rasterize -3d -a_nodata -9999 -tr 0.00027777778 0.00027777778 -tap -l FP_StLouis FP_StLouis.vrt FP_StLouis.tif
@@ -34,6 +41,17 @@ Here's just a few command snippits that I am holding onto for reference sake...
 ### psql
 
     psql -U postgres -d shapes -c "\d"
+
+#### Other General Notes
+
+    postgres=# \h                 # help on SQL commands
+    postgres=# \?                 # help on psql commands, such as \? and \h
+    postgres=# \l                 # list databases
+    postgres=# \c database_name   # connect to a database
+    postgres=# \d                 # list of tables
+    postgres=# \d table_name      # schema of a given table
+    postgres=# \du                # list roles
+    postgres=# \e                 # edit in $EDITOR
 
 ### PostGIS
 1. [Boundless PostGIS Intro](http://workshops.boundlessgeo.com/postgis-intro/)
