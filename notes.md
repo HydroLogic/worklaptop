@@ -16,11 +16,20 @@ Here's just a few command snippits that I am holding onto for reference sake...
 
     for %X in (*.shp) do ogr2ogr -f PostgreSQL PG:"dbname=shapes user='postgres' password='elements'" *.shp
 
+## Python and stuff
 
-## psql
+1. [Rasterio Masks](http://snorf.net/blog/2014/11/09/masking-rasterio-layers-with-vector-features/)
+1. [GeoAlchemy2 Documentation](https://geoalchemy-2.readthedocs.org/en/0.2.6/orm_tutorial.html)
+1. [SQL Alchemy Awesome List](https://github.com/dahlia/awesome-sqlalchemy#gis-and-spatial-databases)
+
+## PostgreSQL
+
+### psql
 
     psql -U postgres -d shapes -c "\d"
 
+### PostGIS
+1. [Boundless PostGIS Intro](http://workshops.boundlessgeo.com/postgis-intro/)
 
 ##Web APIs
 
