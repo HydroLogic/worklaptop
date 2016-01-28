@@ -26,7 +26,7 @@ for %X in (*.shp) do ogr2ogr -t_srs EPSG:4269 -s_srs EPSG:4326 C:\01_DATA\01_Com
 for %X in (*.shp) do ogr2ogr -f PostgreSQL PG:"dbname=shapes user='postgres' password='elements'" *.shp
 ```
 #### Bash and Other Shell
-Rename and take out spaces and parathesis
+[Rename and take out spaces and parathesis](https://unix.stackexchange.com/questions/110213/remove-whitespace-and-parentheses-in-filenames-with-sed)
 ```Shell
 for file in ./*; do mv "$file" "${file/ (*)/}"; done
 ```
