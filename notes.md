@@ -37,9 +37,11 @@ for file in ./*; do mv "$file" "${file/ (*)/}"; done
 1. [GeoQ](https://github.com/ngageoint/geoq) - Django web application to collect geospatial features and manage feature collection among groups of users
 
 ### Interesting Links and Tutorials
+1. [Interactive charting with C3 - D3 based reusable code](http://c3js.org/gettingstarted.html)
 1. [Rasterio Masks](http://snorf.net/blog/2014/11/09/masking-rasterio-layers-with-vector-features/)
 1. [GeoAlchemy2 Documentation](https://geoalchemy-2.readthedocs.org/en/0.2.6/orm_tutorial.html)
 1. [SQL Alchemy Awesome List](https://github.com/dahlia/awesome-sqlalchemy#gis-and-spatial-databases)
+1. [Creating a GeoDjango app with Leaflet](http://blog.mathieu-leplatre.info/geodjango-maps-with-leaflet.html)
 
 #### Discussions
 1. [Streaming NWS Hazard Data](https://github.com/ngageoint/geoq/issues/188)
@@ -63,6 +65,10 @@ General pgsql help stuff
 \e                 # edit in $EDITOR
 ```
 #### Other General Notes
+
+#### Geonode and ROGUE-Geonode
+1. [HIU Guide](http://hiu-beta.state.gov/guides/rogue-geonode)
+
 
 #### PostGIS
 1. [Boundless PostGIS Intro](http://workshops.boundlessgeo.com/postgis-intro/)

@@ -1,5 +1,10 @@
 # Random Article Notes and Shit
-
+### ConUSA Size
+These are based off merging entire datasets together, so there are a lot of places with nodata and that fall outside the US. This is mainly for my reference...
+* 100m Raster Cells inside the ConUSA: 1,064,628,173
+* 30m Raster Cells inside the ConUSA: 19,884,312,144
+### Damage Function Research
+* [Economic facts about flood damages](http://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/technical/econ/references/?cid=nrcs143_009725)
 
 ### Weather/Catastrophes
 
