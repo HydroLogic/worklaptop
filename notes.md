@@ -1,7 +1,8 @@
 # Notes
 Here's just a few command snippits that I am holding onto for reference sake...
 ## Git
-
+* [Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
+### Git pushes
     git add --all
     git commit -m "new notes and scripts"
     git push -u origin master
@@ -14,6 +15,12 @@ Here's just a few command snippits that I am holding onto for reference sake...
 @mention a GitHub username to generate a link to their profile
 
 ## Random Command Lines
+
+
+#### csvKit
+
+
+
 
 #### GDAL and OGR
 ```Shell
@@ -32,7 +39,7 @@ for file in ./*; do mv "$file" "${file/ (*)/}"; done
 ```
 
 ## Python and stuff
-
+* [Awesome list of python links!](http://awesome-python.com/)
 ### GeoDjango Project Examples
 1. [GeoQ](https://github.com/ngageoint/geoq) - Django web application to collect geospatial features and manage feature collection among groups of users
 
@@ -42,11 +49,38 @@ for file in ./*; do mv "$file" "${file/ (*)/}"; done
 1. [GeoAlchemy2 Documentation](https://geoalchemy-2.readthedocs.org/en/0.2.6/orm_tutorial.html)
 1. [SQL Alchemy Awesome List](https://github.com/dahlia/awesome-sqlalchemy#gis-and-spatial-databases)
 1. [Creating a GeoDjango app with Leaflet](http://blog.mathieu-leplatre.info/geodjango-maps-with-leaflet.html)
-
+1. [github - CartoDB Tutorial](https://github.com/clhenrick/cartodb-tutorial)
+1. [github - GDAL Hillshade Tutorial](https://github.com/clhenrick/gdal_hillshade_tutorial)
+1. [github - The art of the command line](https://github.com/jlevy/the-art-of-command-line)
+1.
 #### Discussions
 1. [Streaming NWS Hazard Data](https://github.com/ngageoint/geoq/issues/188)
 
 ## PostgreSQL
+1. [PostgreSQL Window Tutorial](http://www.postgresql.org/docs/current/static/tutorial-window.html)
+
+#### PostGIS
+
+Code:
+[Using window function to get order rank:](https://gis.stackexchange.com/questions/168308/how-to-do-a-spatial-join-in-postgis-that-returns-on-the-minimum-value-of-point-i)
+```SQL
+SELECT osm_id, gid, dn
+FROM   (
+         SELECT b.osm_id, p.gid, p.dn,
+                row_number() OVER (PARTITION BY osm_id order by dn) as rank
+         FROM   buffer b, dem_points p
+         WHERE  ST_Within(p.geom, b.geom)
+       ) joined
+WHERE  rank = 1
+```
+
+Links:
+* [Geoprocessing with PostGIS - CartoDB pt.1](http://blog.cartodb.com/geoprocessing-in-postgis/)
+* [Concave Hull examples](http://www.bostongis.com/postgis_concavehull.snippet)
+* [PostGIS workshop from OSGeo](http://revenant.ca/www/postgis/workshop/advanced.html)
+* [github - PostgreSQL & PostGIS Cheatsheet](https://gist.github.com/clhenrick/ebc8dc779fb6f5ee6a88)
+* [Efficient Spatial Joins with python](https://gis.stackexchange.com/questions/102933/more-efficient-spatial-join-in-python-without-qgis-arcgis-postgis-etc)
+* [Intersecting two shapefiles with python](https://gis.stackexchange.com/questions/178765/intersecting-two-shapefiles-from-python-or-command-line?lq=1)
 
 #### psql
 List all the tables inside the database
@@ -64,7 +98,13 @@ General pgsql help stuff
 \du                # list roles
 \e                 # edit in $EDITOR
 ```
+
 #### Other General Notes
+
+#### Links and shit
+1. [Flood Inundation Mapper](http://water.usgs.gov/osw/flood_inundation/)
+1. [Marsh/Torrent NFS competitor - Schinnerer Flood](http://www.schinnerer.com/Content/Industries/Flood/Pages/Landing_Pages/Flood.aspx)
+
 
 #### Geonode and ROGUE-Geonode
 1. [HIU Guide](http://hiu-beta.state.gov/guides/rogue-geonode)
@@ -72,6 +112,7 @@ General pgsql help stuff
 
 #### PostGIS
 1. [Boundless PostGIS Intro](http://workshops.boundlessgeo.com/postgis-intro/)
+1. [Good intro to dealing with PostGIS SQL queries](https://www.dataiku.com/learn/guide/other/geo/convert-coordinates-with-PostGIS.html)
 
 ## Web APIs
 
