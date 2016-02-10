@@ -2,6 +2,7 @@
 Here's just a few command snippits that I am holding onto for reference sake...
 ## Git
 * [Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
+
 ### Git pushes
     git add --all
     git commit -m "new notes and scripts"
@@ -10,6 +11,9 @@ Here's just a few command snippits that I am holding onto for reference sake...
 ### Add a submodule to my github page
     git submodule init
     git submodule update
+
+For free web hosting: create a gh-pages branch:
+    git checkout -b gh-pages
 
 ### Random Webpage shit
 @mention a GitHub username to generate a link to their profile
@@ -23,6 +27,10 @@ Here's just a few command snippits that I am holding onto for reference sake...
 
 
 #### GDAL and OGR
+
+*[OGR SQL Tutorial](https://github.com/clhenrick/OGR-SQL)
+
+##### Random Commands
 ```Shell
 gdal_rasterize -3d -a_nodata -9999 -tr 0.00027777778 0.00027777778 -tap -l FP_StLouis FP_StLouis.vrt FP_StLouis.tif
 
@@ -33,17 +41,31 @@ for %X in (*.shp) do ogr2ogr -t_srs EPSG:4269 -s_srs EPSG:4326 C:\01_DATA\01_Com
 for %X in (*.shp) do ogr2ogr -f PostgreSQL PG:"dbname=shapes user='postgres' password='elements'" *.shp
 ```
 #### Bash and Other Shell
-[Rename and take out spaces and parathesis](https://unix.stackexchange.com/questions/110213/remove-whitespace-and-parentheses-in-filenames-with-sed)
+
+1. [Fresh start shell script for creating ubuntu servers](https://github.com/veltman/fresh-start)
+1. [Rename and take out spaces and parathesis](https://unix.stackexchange.com/questions/110213/remove-whitespace-and-parentheses-in-filenames-with-sed)
 ```Shell
 for file in ./*; do mv "$file" "${file/ (*)/}"; done
 ```
 
 ## Python and stuff
 * [Awesome list of python links!](http://awesome-python.com/)
+
 ### GeoDjango Project Examples
+
 1. [GeoQ](https://github.com/ngageoint/geoq) - Django web application to collect geospatial features and manage feature collection among groups of users
 
 ### Interesting Links and Tutorials
+
+#### Financial Tutorials
+1. [The Open Guide to Equity Compensation](https://github.com/jlevy/og-equity-compensation)
+
+#### Government Data
+1. [Open Data 500](http://www.opendata500.com/us/)
+
+
+#### Random
+
 1. [Interactive charting with C3 - D3 based reusable code](http://c3js.org/gettingstarted.html)
 1. [Rasterio Masks](http://snorf.net/blog/2014/11/09/masking-rasterio-layers-with-vector-features/)
 1. [GeoAlchemy2 Documentation](https://geoalchemy-2.readthedocs.org/en/0.2.6/orm_tutorial.html)
@@ -100,6 +122,8 @@ General pgsql help stuff
 ```
 
 #### Other General Notes
+
+
 
 #### Links and shit
 1. [Flood Inundation Mapper](http://water.usgs.gov/osw/flood_inundation/)
