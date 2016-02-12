@@ -2,6 +2,8 @@
 Here's just a few command snippits that I am holding onto for reference sake...
 ## Git
 * [Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
+* [Example tutorial to help me learn how to push and pull](https://github.com/githubteacher/nicar-2015)
+
 
 ### Git pushes
     git add --all
@@ -74,7 +76,7 @@ for file in ./*; do mv "$file" "${file/ (*)/}"; done
 1. [github - CartoDB Tutorial](https://github.com/clhenrick/cartodb-tutorial)
 1. [github - GDAL Hillshade Tutorial](https://github.com/clhenrick/gdal_hillshade_tutorial)
 1. [github - The art of the command line](https://github.com/jlevy/the-art-of-command-line)
-1.
+1. [python for oceanographers](https://ocefpaf.github.io/python4oceanographers/)
 #### Discussions
 1. [Streaming NWS Hazard Data](https://github.com/ngageoint/geoq/issues/188)
 
@@ -144,6 +146,6 @@ General pgsql help stuff
 1. [NOAA/NWS Snowfall rasters](http://www.nohrsc.noaa.gov/snowfall/)
 
 
-## Examples of Map Dashboards
-1. [TIBCO and the CA Drought](https://spotfire.cloud.tibco.com/spotfire/wp/render/22694204537/analysis?file=/users/annamarianow/public/california%20drought&waid=6zaDFLK7QEaq5UbmFzKIe-0716011da9yf5y&wavid=0)
+
+
 

@@ -1,0 +1,770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"psy",
+				"psycopg2"
+			],
+			[
+				"zo",
+				"zoomup"
+			],
+			[
+				"vie",
+				"viewup〔variable〕"
+			],
+			[
+				"zoo",
+				"zoomup〔variable〕"
+			],
+			[
+				"EP",
+				"EPSG:900913"
+			],
+			[
+				"proj",
+				"projection"
+			],
+			[
+				"Tile",
+				"TileWMS"
+			],
+			[
+				"C",
+				"California"
+			],
+			[
+				"S",
+				"SUBUNIT"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"lay",
+				"layerStamTer"
+			],
+			[
+				"myn",
+				"myNewElement"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"Ras",
+				"RasPoly"
+			],
+			[
+				"IDw",
+				"IDW_Haz"
+			],
+			[
+				"selec",
+				"selectexposure"
+			],
+			[
+				"from",
+				"fromProjection"
+			],
+			[
+				"dfirm",
+				"dfirmstyle"
+			],
+			[
+				"Sel",
+				"SelectFeature"
+			],
+			[
+				"select",
+				"select"
+			],
+			[
+				"fea",
+				"feature"
+			],
+			[
+				"LAYERS",
+				"Layers"
+			],
+			[
+				"ge",
+				"geog585"
+			],
+			[
+				"fil",
+				"fillOpacity"
+			],
+			[
+				"stroke",
+				"strokeWidth"
+			],
+			[
+				"fill",
+				"fillOpacity"
+			],
+			[
+				"lev",
+				"leveeLayer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "notes.md",
+			"settings":
+			{
+				"buffer_size": 5526,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "todolist.md",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "javascript.md",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/sql/dealing with NHD.sql",
+			"settings":
+			{
+				"buffer_size": 198,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/sql/other-useful-queries.sql",
+			"settings":
+			{
+				"buffer_size": 3346,
+				"line_ending": "Windows",
+				"name": "-------- Other Useful SQL --------"
+			}
+		},
+		{
+			"file": "RandomNotes.md",
+			"settings":
+			{
+				"buffer_size": 835,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "flood damage functions.md",
+			"settings":
+			{
+				"buffer_size": 1581,
+				"line_ending": "Windows",
+				"name": "# Flood Damage Functions:"
+			}
+		},
+		{
+			"file": "API Locations.md",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Build: New Build System"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"cd \"C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\Sublime Text 3\\Packages\"",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mschmitt2/projects/worklaptop",
+		"/C/Users/mschmitt2/projects/worklaptop/scripts",
+		"/C/Users/mschmitt2/projects/worklaptop/scripts/sql"
+	],
+	"file_history":
+	[
+		"/C/Users/mschmitt2/projects/worklaptop/worklaptop.sublime-project",
+		"/C/Users/mschmitt2/projects/worklaptop/NFIP Claims Data Analysis.md",
+		"/C/Users/mschmitt2/projects/worklaptop/scripts/Elements.md",
+		"/C/Users/mschmitt2/projects/worklaptop/.gitignore",
+		"/C/Users/mschmitt2/projects/worklaptop/example foil request.md",
+		"/C/Users/mschmitt2/projects/worklaptop/scripts/shell/separate-roads-by-type.sh",
+		"/C/Users/mschmitt2/projects/worklaptop/scripts/shell/rename-files-gis-friendly.sh",
+		"/C/01_DATA/92_Scripts/cmd.txt",
+		"/C/01_DATA/_new_work/tuflow/model/Matt_01.tgc",
+		"/C/01_DATA/_drive/scenarios/winter2015/shapefile_readme.txt",
+		"/C/Users/mschmitt2/Downloads/cij1mpn7z00198vklycqu78jz.json",
+		"/C/Users/mschmitt2/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/FR2FOEMT/disaster declarations (2).txt",
+		"/C/Users/mschmitt2/.spyder2/history.py",
+		"/C/Users/mschmitt2/.spyder2/spyder.ini",
+		"/C/Users/mschmitt2/.spyder2/history_internal.py",
+		"/C/01_DATA/97_Contiguous/Address_Files/NationalFile_20140401/NationalFile_20140401.txt",
+		"/C/Users/mschmitt2/Documents/Python Scripts/tmp/test-storedquery.gml",
+		"/C/01_DATA/geonode cheat sheet",
+		"/C/01_DATA/00_Projects/01_US_Flood/_working/10_2015_SouthCarolinaFlood/www.srh.noaa.gov/ridge2/Precip/qpehourlyimages/2015/commands/gdal.txt",
+		"/C/01_DATA/_new_work/tuflow/model/Matt_01.tbc",
+		"/C/Users/mschmitt2/AppData/Local/Temp/Macys 2015 v15 - locexp.txt",
+		"/C/01_DATA/00_Projects/01_US_Flood/_working/10_2015_GillsCreek5070/FluvialModel/IoD_Test/KEY.txt",
+		"/C/Users/mschmitt2/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/FR2FOEMT/Notes.txt",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/settings 2.py",
+		"/C/01_DATA/00_Projects/01_US_Flood/_working/10_2015_SouthCarolinaFlood/www.srh.noaa.gov/ridge2/Precip/qpehourlyimages/2015/clipped/commands/gdal.txt",
+		"/C/01_DATA/92_Scripts/_rd_create_input_sql_script.txt",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/local_settings 2.py",
+		"/C/01_DATA/00_Projects/WhiteboxGAT/Whitebox_3_2_2/README.TXT",
+		"/C/01_DATA/CheatSheet.md.txt",
+		"/C/SIMPLIFIED/Riv79c_FP_RAW/FloodPlain_AnalysisSETUP.txt",
+		"/C/01_DATA/HowToEditGeoJSONs.txt",
+		"/C/03_WEB/aws/mr_admin/masterpw.info",
+		"/C/01_DATA/PAPERS I NEED TO READ.txt",
+		"/C/01_DATA/90_HydroModel/Gages/gaugesraw/txtDaily/03303280.txt",
+		"//chiarefs2lab/RD/01_Projects/04_US_Flash_flood/US-Flood-2015-South-Carolina/Deliverables/Final/South_Carolina_Final2015/GIS/shapefile_readme.txt",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/setup.py",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/manage 2.py",
+		"//chiaresd2lab/RD2_Shared/NOTES ubuntu",
+		"//chiaresd2lab/RD2_Shared/mr_admin.txt",
+		"/C/01_DATA/92_Scripts/ubuntu tests",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/tomcat7",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/geonode.conf",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/settings.py",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/manage.py",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/local_settings.py",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/geonode.wsgi",
+		"/C/01_DATA/97_Contiguous/Governmental/NationalFile_20150601/NationalFile_20150601.txt",
+		"/C/01_DATA/97_Contiguous/Cities/cities1000.txt",
+		"/C/01_DATA/00_Projects/01_US_Flood/_working/10_2015_SouthCarolinaFlood/www.srh.noaa.gov/robots.txt",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/index.js",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/authorized_keys",
+		"/C/Users/mschmitt2/Downloads/wms (2)",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/tilestache.cfg",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/proxy.conf",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/ports.conf",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/README",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/masterpw.info",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/users.properties",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/users.properties.old",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/passwd",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/httpd.conf",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/proxy.load",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/proxy_http.load",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/default",
+		"/C/Users/mschmitt2/AppData/Local/Temp/fz3temp-1/config",
+		"/C/Program Files (x86)/PuTTY/README.txt",
+		"/C/03_WEB/hydromodel/ogrsnips/kml/ogrconvert.txt",
+		"/C/03_WEB/hydromodel/references/ghcnd-countries.txt",
+		"/C/01_DATA/98_Zips/WhiteboxGAT/Whitebox_3_2_2/README.TXT",
+		"/C/01_DATA/98_Zips/WhiteboxGAT/Whitebox_3_2_2/resources/Help/NewHelp.txt",
+		"/C/01_DATA/00_Projects/02_Scenarios_Flood/2008_Cedar_Rapids/highrespoints.xyz",
+		"//Chiarefs2lab/RD/01_Projects/04_US_Flash_flood/SRH/Rainfall/southFLX.txt",
+		"/C/Users/mschmitt2/Downloads/Installs/TakeHomeProblem2/Input/1431700713.txt",
+		"/C/Users/mschmitt2/Downloads/bulk_547503.txt",
+		"/C/01_DATA/98_Zips/NHD/create.sh",
+		"/C/01_DATA/92_Scripts/curls shell script.txt",
+		"//10.94.8.62/01_Projects/Matthew/fl_eve/model/fl_eve_gpu.tgc",
+		"/C/01_DATA/00_Projects/9990_Example_Data/tuflow/Example_Models_ArcGIS/Example_Models_ArcGIS/TUFLOW/runs/EG00_2D_5m_001.tcf",
+		"/C/01_DATA/00_Projects/9990_Example_Data/tuflow/Example_Models_ArcGIS/Example_Models_ArcGIS/TUFLOW/runs/EG01_2D_5m_001.tcf",
+		"//10.94.8.62/01_Projects/Matthew/tampa/runs/log/fl_eve_FL_Jul20_Aug4_rN+R_050+rf1.tlf",
+		"//Chiaresd2lab/RD2_Shared/00_Projects/9999_ExampleData/scripts/22b_CreateScenarioFilesOutputGRID.py",
+		"/C/Users/mschmitt2/Downloads/nhc.kmz",
+		"/C/01_DATA/00_Projects/9990_Example_Data/tuflow/A3_Goteborg/A3_121/model/A3_121.tbc",
+		"/C/01_DATA/00_Projects/9990_Example_Data/tuflow/scripts/20_3_CreateBCFiles.py",
+		"/C/01_DATA/00_Projects/02_Scenarios_Flood/05_FL_Aug2015/working/temp/july/www.srh.noaa.gov/robots.txt",
+		"/C/Users/mschmitt2/Downloads/var_entorno_osgeo4w.bat",
+		"/C/01_DATA/98_Zips/NHD/downloadNhd.sh",
+		"/C/01_DATA/98_Zips/NHD/test nhd",
+		"/C/01_DATA/98_Zips/NHD/census.sh",
+		"/C/01_DATA/98_Zips/NHD/postgis census raster.sql",
+		"/C/01_DATA/98_Zips/NHD/edit postgis sh",
+		"/C/01_DATA/98_Zips/NHD55567/GDB/info.txt",
+		"/C/Users/mschmitt2/Desktop/hhappc.txt",
+		"/C/01_DATA/00_Projects/110_Brazilflood/dev/A21_SaoPaulo/log.txt",
+		"/C/01_DATA/92_Scripts/rd_create_input_script.sql",
+		"/C/Program Files/WinRAR/Rar.txt",
+		"/C/01_DATA/98_Zips/NationalFile_20150601/NationalFile_20150601.txt",
+		"/C/GRASS GIS 7.0.0/extrabin/o4w_env.bat",
+		"/C/OSGeo4W64/usr/src/osgeo4w/CMakeLists.txt",
+		"/C/OSGeo4W64/bin/dtplugin/deployJava1.dll",
+		"/C/OSGeo4W64/lib/jvm.hprof.txt",
+		"/C/OSGeo4W64/lib/README.txt",
+		"/C/Program Files/QGIS Wien/apps/grass/grass-6.4.3/tools/mkhtml.sh",
+		"/C/GRASS GIS 7.0.0/Python27/README.txt",
+		"/C/GRASS GIS 7.0.0/Python27/o4w_readme.txt",
+		"/C/GRASS GIS 7.0.0/GPL.TXT",
+		"/C/OSGeo4W64/bin/server/jvm.dll",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/User/SQLExec.sublime-settings",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/01_DATA/92_Scripts/Python/pytihon project.sublime-project",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mschmitt2/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/03_WEB/WebDevelopmentFlood.sublime-project",
+		"/C/01_DATA/00_Projects/02_FEMA/tb2v200806.txt",
+		"/C/01_DATA/97_Contiguous/NationalFile_20150601/NationalFile_20150601.txt",
+		"/C/01_DATA/97_Contiguous/NationalFedCodes_20150601/NationalFedCodes_20150601.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/nfip_claims_raw.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/nfip_policies_raw.txt",
+		"/C/01_DATA/92_Scripts/ogrnotes",
+		"/C/01_DATA/96_Rasters/Contiguous/srgr48i0100a.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/nfip_policies.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/formatted_claims_all.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/formatted_claims_county.txt",
+		"/C/01_DATA/92_Scripts/R/nfip/nfip-master/nfip_claims_raw_2013.txt",
+		"/C/01_DATA/98_Zips/CRT_1.1.1/CRT_1.1.1/Readme.txt",
+		"/C/01_DATA/98_Zips/CRT_1.1.1/CRT_1.1.1/Summary_CRT.txt"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pause",
+			"zip",
+			"xxxxxxxPlease",
+			"(best fit),",
+			"parent",
+			"parenttheme",
+			"nickname",
+			"$name",
+			"form-email-field",
+			"wrapper",
+			"full-width",
+			"zoomtoswitzerlandconstrained",
+			"vectorLayer",
+			"psql ",
+			"http://www.horizon-systems.com/NHDPlusData/NHDPlusV21/Data",
+			"zoom",
+			"stopped",
+			"world-110m2",
+			"root",
+			"render",
+			"init"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "todolist.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "javascript.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/sql/dealing with NHD.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/sql/other-useful-queries.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"auto_name": "-------- Other Useful SQL --------",
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "RandomNotes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "flood damage functions.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "# Flood Damage Functions:",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "API Locations.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "worklaptop.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

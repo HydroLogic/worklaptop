@@ -1,3 +1,7 @@
+# FEMA
+
+### Technical Mapping Advisory Council (TMAC)
+>> Recommendation No. 10: FEMA should transition from identifying the 1-percent-annual-chance floodplain and associated base flood elevation as the basis for insurance rating purposes to a structure-specific flood frequency determination and associated flood elevations
 # Flood Damage Functions:
 
 James 1972 uses the aggregate formula:

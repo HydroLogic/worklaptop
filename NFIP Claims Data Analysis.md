@@ -1,5 +1,5 @@
 # NFIP Claims Data Analysis
-
+#### [FEMA Hazus MH2.1 Manual](https://www.fema.gov/media-library/assets/documents/24609)
 * Aggregate sums of building payments by year
 ```SQL
 SELECT [YEAR] year
